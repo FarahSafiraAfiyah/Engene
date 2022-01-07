@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Engene♛</string>
+    <string name="placeholder">Title</string>
+    <!--    <string name="paket_info_placeholder"><![CDATA[Information->]]></string>-->
+    <!--    <string name="paket">1. Areal Parkir \n2.Tempat Makan \n3. Mushola \n4. Kamar Mandi Umum \n5. Outbound \n6. Wahana FlyingFox \n7. Wahana sepeda angkasa \n8. spot foto</string>-->
+    <string name="register">Register</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="totalHarga"><u>total Harga</u></string>
+</resources>

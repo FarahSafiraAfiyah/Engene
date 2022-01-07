@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bgku"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/paketImages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/paketImages"
+            android:padding="8dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        <TextView
+            android:id="@+id/hargaPaketWisata"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/paketImages"
+            android:padding="8dp"
+            android:text="informasi" />
+<!--        <Button-->
+<!--            android:id="@+id/beli"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="beli"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            android:layout_marginBottom="18dp"-->
+<!--            android:layout_marginRight="9dp"-->
+<!--            android:layout_marginLeft="9dp"-->
+<!--            android:layout_below="@+id/hargaPaketWisata"/>-->
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

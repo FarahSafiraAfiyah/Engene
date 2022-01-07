@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Call Center"
+        android:id="@+id/cC"
+        app:showAsAction="never"
+        android:onClick="dialCall"/>
+    <item
+        android:title="SMS Center"
+        android:id="@+id/smsC"
+        app:showAsAction="never"
+        android:onClick="smsCenter"/>
+    <item
+        android:title="Lokasi"
+        android:id="@+id/maps"
+        app:showAsAction="never"
+        android:onClick="onMap"/>
+    <item
+        android:title="Pembayaran"
+        android:id="@+id/pembayaran"
+        app:showAsAction="never"
+        android:onClick="pembayaran"/>
+    <item
+        android:title="Akun"
+        android:id="@+id/UpdUnP"
+        android:onClick="update"
+        app:showAsAction="never"/>
+    <item
+        android:title="LogOut"
+        android:id="@+id/Logout"
+        app:showAsAction="never"
+        android:onClick="logout"/>
+
+</menu>
